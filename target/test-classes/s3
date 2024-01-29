@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="Jan22_TestNG.Lab8_TestNG_lab4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

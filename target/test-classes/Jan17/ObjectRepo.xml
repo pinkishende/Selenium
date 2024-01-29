@@ -1,0 +1,5 @@
+<logindata>
+	<username>username</username>
+	<password>password</password>
+	<loginbtn>//button[@type='submit']</loginbtn>	
+</logindata>
