@@ -45,7 +45,7 @@ public class Luma_Booking {
 		  System.out.println("The time is: "+timestamp);
 		  
 		  ExtentReports extent=new ExtentReports();
-			ExtentSparkReporter spark=new ExtentSparkReporter(timestamp+"luma2.html");
+			ExtentSparkReporter spark=new ExtentSparkReporter(timestamp+"LumaRepot.html");
 			extent.attachReporter(spark);
 			ExtentTest test=extent.createTest("Verify the Title of Luma");
 			obj.gotologin();
@@ -239,3 +239,4 @@ public class Luma_Booking {
 		  System.out.println("This is after suite");
 	  }
 }
+

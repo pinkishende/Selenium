@@ -1,55 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Edge_Test(failed)">
-    <parameter name="Browser" value="edge"/>
-    <classes>
-      <class name="Case2_TestNG.Case2_Booking">
-        <methods>
-          <include name="f"/>
-          <include name="afterSuite"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="afterTest"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- Case2_TestNG.Case2_Booking -->
-    </classes>
-  </test> <!-- Edge_Test(failed) -->
   <test thread-count="5" name="Chrome_Test(failed)">
     <parameter name="Browser" value="chrome"/>
     <classes>
-      <class name="Case2_TestNG.Case2_Booking">
+      <class name="Case2_TestNG.Luma_Booking">
         <methods>
-          <include name="f"/>
-          <include name="afterSuite"/>
           <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
           <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="f" invocation-numbers="0"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- Case2_TestNG.Case2_Booking -->
+      </class> <!-- Case2_TestNG.Luma_Booking -->
     </classes>
   </test> <!-- Chrome_Test(failed) -->
-  <test thread-count="5" name="Firefox_Test(failed)">
-    <parameter name="Browser" value="firefox"/>
-    <classes>
-      <class name="Case2_TestNG.Case2_Booking">
-        <methods>
-          <include name="afterSuite"/>
-          <include name="f"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="afterTest"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- Case2_TestNG.Case2_Booking -->
-    </classes>
-  </test> <!-- Firefox_Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

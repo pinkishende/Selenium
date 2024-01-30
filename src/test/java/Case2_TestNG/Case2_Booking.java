@@ -226,5 +226,6 @@ public class Case2_Booking {
 	  public void afterSuite() {
 		  System.out.println("This is after suite");
 	  }
+	  
 
 }

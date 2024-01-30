@@ -107,3 +107,4 @@ WebDriver driver;
 		return isdashboard_displayed;
 	}
 }
+
